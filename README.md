@@ -1,5 +1,3 @@
-Jellies is a 2D game done for the miniclip tech task and is more or less a clone of Ores.
-
 The objective is to combine jellies and save as many as possible before they reach the end of the platform.
 The game is set to work with combinations of 2 or more adjacent jellies and a new column spawns each 3 seconds.
 The score is updated upon each valid move and a record is kept during gameplay and is shown at the end.
@@ -83,9 +81,6 @@ Engine class - does the init and quit of SDL and other more general libraries
 Vector2 - a 2d vector (x,y)
 Color - a 4-component color, RGBA
 Camera2D - a 2d camera that transforms screen coordinates to world coordinates and accounts for the automatic scaling that SDL does with SDL_RenderSetLogicalSize.
-
-
-PS: No jellies were harmed during the realization of this tech task.
 
 
 
